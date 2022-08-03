@@ -1,0 +1,36 @@
+.header-label {
+  background-color: var(--bg-gray);
+  padding: 1rem 0.3rem;
+}
+
+.label,
+.claim-anchor {
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.claim-anchor {
+  color: var(--link-blue);
+  cursor: pointer;
+  text-decoration: underline;
+}
+.claim-arrow {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+@media all and (max-width: 560px) {
+  .header-label {
+    /* flex-direction: column; */
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 375px) {
+  .label,
+  .claim-anchor {
+    font-size: 1.4rem;
+  }
+}

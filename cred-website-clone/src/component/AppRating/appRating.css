@@ -1,0 +1,77 @@
+.app-rating {
+  padding: 20rem 0px;
+  justify-content: space-around;
+  gap: 3rem;
+}
+
+.app-rating-value {
+  font-size: 16rem;
+  line-height: 12rem;
+  padding-right: 1.6rem;
+  font-weight: 700;
+  flex-direction: column;
+}
+
+.app-rating-stars {
+  width: 18rem;
+  height: 2.8rem;
+}
+
+.app-rating-platform {
+  font-size: 6rem;
+  line-height: 5.5rem;
+  padding-left: 1.6rem;
+  font-weight: 700;
+}
+
+.app-rating-block {
+  margin-bottom: 7rem;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.app-rating-icon {
+  height: 3rem;
+  margin-right: 0.6rem;
+}
+
+.app-rating-button {
+  padding: 1.5rem 3rem !important;
+  font-size: 2rem;
+  margin-top: 4rem;
+}
+
+@media all and (max-width: 1279px) {
+  .app-rating {
+    padding: 10rem 0px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .app-rating-value {
+    font-size: 10rem;
+  }
+  .app-rating-stars {
+    width: 12rem;
+    height: 1.8rem;
+  }
+  .app-rating-platform {
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .app-rating {
+    padding: 7rem 0px;
+    flex-direction: column;
+  }
+  .app-rating-value {
+    font-size: 9rem;
+  }
+  .app-rating-platform {
+    font-size: 3.1rem;
+    line-height: 3.2rem;
+    text-align: left;
+    align-self: center;
+  }
+}

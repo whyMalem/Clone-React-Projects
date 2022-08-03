@@ -1,0 +1,74 @@
+.cred-story {
+  background-color: var(--bg-green);
+  min-height: 100vh;
+  background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/trust-bg.jpg);
+  background-size: cover;
+  background-position: right bottom;
+  position: relative;
+}
+
+.story-wrapper {
+  align-items: flex-end;
+}
+
+.cred-story-heading-wrapper {
+  width: 50%;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+}
+
+.cred-story-heading {
+  font-size: 6rem;
+  line-height: 6rem;
+  font-weight: 700;
+  max-width: 80%;
+}
+
+.cred-story-detail {
+  width: 50%;
+  font-weight: 500;
+  margin-left: 3rem;
+}
+
+.cred-story-para {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  margin-top: 2rem;
+  max-width: 55rem;
+}
+
+@media all and (max-width: 1279px) {
+  .cred-story-heading {
+    max-width: 100%;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .cred-story {
+    background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/trust-bg-mobile.jpg);
+  }
+
+  .cred-story-heading {
+    font-size: 5.5rem;
+    line-height: 5.5rem;
+    padding-bottom: 8rem;
+  }
+
+  .cred-story-para {
+    font-size: 1.5rem;
+  }
+
+  .story-wrapper {
+    flex-direction: column;
+    padding: 7rem 0px;
+  }
+
+  .cred-story-heading-wrapper {
+    width: 100%;
+  }
+
+  .cred-story-detail {
+    width: 100%;
+  }
+}
