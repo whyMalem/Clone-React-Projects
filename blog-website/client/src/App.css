@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.App {
+  margin-top: 64px;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+/* .login {
+  text-transform: "none";
+  letter-spacing: "1px";
+  background-color: "#fb641b";
+  height: "40px";
+} */
+/* .login:hover {
+  color: "#fb641b";
+  background: "#fff";
+} */
